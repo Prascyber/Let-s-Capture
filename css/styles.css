@@ -1,0 +1,203 @@
+body{
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth;
+}
+
+
+#title {
+    background-color: #F0DBDB;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Ubuntu', sans-serif, bold;
+    font-size: 60px;
+    line-height: 1.5;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.nav-item {
+    padding-right: 10px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    margin-right: 30px;
+   
+}
+.logo{
+   width: 50%;
+}
+
+.S {
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', bold;
+    border-radius: 20px;
+    color: black;
+
+}
+
+.nav-link :hover {
+    text-decoration: none;
+    color: green;
+
+
+}
+
+.E :hover {
+    text-decoration: underline;
+    color: aqua;
+
+}
+
+.rotated {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 60%;
+    transform: rotate(25deg);
+    
+}
+
+
+.feature-box {
+    text-align: center;
+    padding: 4.5%;
+
+
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+   
+
+}
+
+.icon {
+    color: rgb(188, 102, 168);
+}
+
+.icon:hover {
+    color: rgb(185, 49, 49);
+}
+
+/* .rotated {
+    transform:rotate(25deg);
+    position: absolute;
+} */
+
+/* *************************************** */
+
+#testimonials {
+
+    background-color: #f3eded;
+    text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif, ;
+}
+
+.testimonial-image {
+   width: 80%;
+   
+   border-radius: 20px;
+}
+.testimonial-text{
+    padding-bottom: 25px;
+    line-height: 1;
+}
+.lets{
+    padding-top: 20px;
+    font-size: 21px;
+    font-family: 'Caveat', cursive;
+}
+
+#press {
+    background-color: #f3eded;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 10%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* ********************Pricing SECtion******************** */
+
+
+
+.plan {
+    text-align: center;
+    padding-bottom: 70px;
+    background-color: #fff;
+    padding-top: 100px;
+}
+
+.pricing-coloum {
+    padding: 3% 2%;
+    
+
+}
+
+.card {
+    background-color: #ede2e2;
+
+
+}
+
+.card1 {
+    margin-left: 30px;
+}
+
+
+
+.card3 {
+    margin-right: 30px;
+}
+
+@media(max-width:1000px) {
+   .rotated {transform: rotate(0);
+}
+}
+
+
+/* *************************************************** */
+#cta{background-color: #f0d0d0;
+    
+    font-size: 50px;
+    text-align: center;
+    padding: 7% 30%;
+}
+#footer{
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Ubuntu' ;
+    font-weight: bold;
+    color: #534f4f;
+
+}
+.footer-icon i{
+    padding: 20px 20px 30px 20px;
+    
+}
+.C{
+    font-family: 'Caveat', cursive;
+}
